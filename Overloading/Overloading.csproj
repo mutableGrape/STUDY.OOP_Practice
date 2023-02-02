@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{311B2C50-C9C8-4D8A-876B-1985836654D5}</ProjectGuid>
+    <ProjectGuid>{231CB5C4-2737-4F77-BAF2-117FA91046F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Interfaces</RootNamespace>
-    <AssemblyName>Interfaces</AssemblyName>
+    <RootNamespace>Overloading</RootNamespace>
+    <AssemblyName>Overloading</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Circle.cs" />
-    <Compile Include="IShape.cs" />
+    <Compile Include="Arithemtic.cs" />
+    <Compile Include="Calculate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
