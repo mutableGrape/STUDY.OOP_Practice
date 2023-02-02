@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inheritance;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace OOP1
         static void Main(string[] args)
         {
             // Instantiate Account class
-            Account myAccount = new Account();
+            Account myAccount = new Account();   
             double currentAmount = 0.0;
 
             // Save money into the account
